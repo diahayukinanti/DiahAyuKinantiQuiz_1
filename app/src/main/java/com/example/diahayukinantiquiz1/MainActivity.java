@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         radioGroup = findViewById(R.id.radioGroup);
         btnproses = findViewById(R.id.btnproses);
 
-        btnproses.setOnClickListener(new View.OnClickListener(){
+        btnproses.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 processTransaction();
@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+
     private void processTransaction() {
         String nama = etnama.getText().toString().trim();
         String kode = etkode.getText().toString().trim();
@@ -41,8 +42,8 @@ public class MainActivity extends AppCompatActivity {
 
         Intent intent = new Intent(MainActivity.this, TotalHarga.class);
         intent.putExtra("nama", nama);
-        intent.putExtra("Kode Barang", kode);
-        intent.putExtra("Jumlah", jumlah);
+        intent.putExtra("Kode", kode);
+        intent.putExtra("jumlah", jumlah);
         intent.putExtra("tipepelanggan", tipepelanggan);
         startActivity(intent);
     }

@@ -15,19 +15,20 @@
         android:layout_height="wrap_content"
         android:text="Selamat Datang Nama Pembeli"
         android:textColor="#C2185B"
+        android:layout_gravity="center"
         android:textSize="18sp"
         android:textStyle="bold"
         android:layout_marginBottom="16dp"/>
 
     <TextView
         android:id="@+id/tvtipepelanggan"
-        android:layout_width="wrap_content"
+        android:layout_width="215dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:text="Tipe Pelanggan: "
         android:textColor="#C2185B"
         android:textSize="16sp"
-        android:textStyle="italic"
-        android:layout_marginBottom="16dp"/>
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/tvtransaksihariini"
@@ -114,7 +115,7 @@
         android:layout_height="wrap_content"
         android:textColor="#C2185B"
         android:text="♡⊹˚₊TERIMA KASIH SUDAH BERBELANJA DISINI ₊˚⊹♡"
-        android:textSize="14sp"
+        android:textSize="11sp"
         android:textStyle="bold"
         android:layout_gravity="center"/>
     <Button

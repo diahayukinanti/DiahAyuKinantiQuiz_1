@@ -48,10 +48,10 @@ public class TotalHarga extends AppCompatActivity {
         // Mendapatkan data dari intent sebelumnya
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
-            String namapembeli = extras.getString("namapembeli");
+            String namapembeli = extras.getString("nama");
             String tipepelanggan = extras.getString("tipepelanggan");
-            String itemCode = extras.getString("itemCode");
-            int unit = extras.getInt("unit");
+            String itemCode = extras.getString("Kode");
+            int unit = extras.getInt("jumlah");
 
             // Menampilkan data customer dan membership type
             tvnamapembeli.setText(namapembeli);
