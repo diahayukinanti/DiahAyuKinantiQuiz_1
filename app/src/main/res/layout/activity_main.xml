@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#83C3CA"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTittle"
+        android:text="°❀⋆.Diah Ayu Kinanti Quiz1.⋆❀°"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#C2185B"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:id="@+id/etnama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="NAMA"
+        android:minHeight="48dp"/>
+
+    <TextView
+        android:id="@+id/tvTipepelanggan"
+        android:text="TIPE PELANGGAN:"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="#C2185B"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/BiasaRadioButton"
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:text="Biasa"
+            android:textColor="#C2185B"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/silverRadioButton"
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:text="Silver"
+            android:textColor="#C2185B"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/goldRadioButton"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:text="Gold"
+            android:textColor="#C2185B"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+    <EditText
+        android:id="@+id/etkode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="KODE BARANG"
+        android:minHeight="48dp"/>
+    <EditText
+        android:id="@+id/etjumlah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="JUMLAH BARANG"
+        android:minHeight="48dp"/>
+
+    <Button
+        android:id="@+id/btnproses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proses"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#C2185B" />
+
+</LinearLayout>
